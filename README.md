@@ -2,16 +2,17 @@
 I programmed this classifier using Pytorch to identify handwritten digits from the MNIST dataset.
 
 # Training Loss/Testing Results
+```
 test set         accuracy
 ---------------  ----------
-training         97.41%<br />
+training         97.41%
 vanilla test     98.33%
 vertical flip    98.93%
 horizontal flip  98.63%
 weak noise       98.46%
 medium noise     99.00%
 strong noise     89.44%
-
+```
 ![Bar graph displaying test results.](https://github.com/LeoCai12777/Handwritten-Digit-Classifier/blob/main/testresults.pdf?raw=true)
 
 # Design of the Neural Net
