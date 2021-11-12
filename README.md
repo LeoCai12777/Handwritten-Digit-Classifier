@@ -8,7 +8,7 @@ Horizontally flipped MNIST test set:
 Medium Gaussian noise MNIST test set:
 Strong Gaussian noise MNIST test set:
 
-![Bar graph displaying results of testing the model on various augmented testsets](https://github.com/LeoCai12777/Handwritten-Digit-Classifier/blob/main/testresults.jpg?raw=true)
+![Bar graph displaying results of testing the model on various augmented testsets](https://github.com/LeoCai12777/Handwritten-Digit-Classifier/blob/main/testresults.pdf?raw=true)
 
 # Design of the Neural Net
 This convolutional neural network is written to follow the VGG11 model (model A in table 1 in [this paper](https://arxiv.org/pdf/1409.1556.pdf)).
