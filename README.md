@@ -13,7 +13,7 @@ weak noise       98.46%
 medium noise     99.00%
 strong noise     89.44%
 ```
-![Bar graph displaying test results.](https://github.com/LeoCai12777/Handwritten-Digit-Classifier/blob/main/testresults.pdf?raw=true)
+![Bar graph displaying test results.](https://github.com/LeoCai12777/Handwritten-Digit-Classifier/blob/main/testresults.pdf)
 
 # Design of the Neural Net
 This convolutional neural network is written to follow the VGG11 model (model A in table 1 in [this paper](https://arxiv.org/pdf/1409.1556.pdf)).
