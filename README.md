@@ -2,13 +2,17 @@
 I programmed this classifier using Pytorch to identify handwritten digits from the MNIST dataset.
 
 # Training Loss/Testing Results
-Vanilla MNIST test set: 
-Vertically flipped MNIST test set: 
-Horizontally flipped MNIST test set: 
-Medium Gaussian noise MNIST test set:
-Strong Gaussian noise MNIST test set:
+test set         accuracy
+---------------  ----------
+training         97.41%
+vanilla test     98.33%
+vertical flip    98.93%
+horizontal flip  98.63%
+weak noise       98.46%
+medium noise     99.00%
+strong noise     89.44%
 
-![Bar graph displaying results of testing the model on various augmented testsets](https://github.com/LeoCai12777/Handwritten-Digit-Classifier/blob/main/testresults.pdf?raw=true)
+![Bar graph displaying test results.](https://github.com/LeoCai12777/Handwritten-Digit-Classifier/blob/main/testresults.pdf?raw=true)
 
 # Design of the Neural Net
 This convolutional neural network is written to follow the VGG11 model (model A in table 1 in [this paper](https://arxiv.org/pdf/1409.1556.pdf)).
