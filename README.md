@@ -4,7 +4,7 @@ I programmed this classifier using Pytorch to identify handwritten digits from t
 # Training Loss/Testing Results
 test set         accuracy
 ---------------  ----------
-training         97.41%
+training         97.41%<br />
 vanilla test     98.33%
 vertical flip    98.93%
 horizontal flip  98.63%
