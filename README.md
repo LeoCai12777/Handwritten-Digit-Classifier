@@ -32,7 +32,7 @@ The VGG11 model is as follow:
 - FC(4096, 10)
 
 The 8 convolutions give the classifer the ability to recognize small, medium, and large scale features in the image.
-After each convolution, I use batch normalization to standardize the outputs and reduce the effect of exploding gradients.
+After each convolution, batch normalization is used to standardize the outputs and reduce the effect of exploding gradients.
 The ReLU activation function used in each layer adds non-linearity to the model.
-The max pooling functions I use increase generalization by ignoring less signification inputs and reduces dimension, thereby accelerating training.
-In the fully connected layers, I use a dropout probability of 0.5 to prevent overfitting on the training set.
+The max pooling functions used increase generalization by ignoring less signification inputs and reduces dimension, thereby accelerating training.
+In the fully connected layers, a dropout probability of 0.5 is used to prevent overfitting on the training set and dominance of individual nodes.
