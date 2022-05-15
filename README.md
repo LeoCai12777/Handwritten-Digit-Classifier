@@ -2,6 +2,9 @@
 I programmed this classifier using Pytorch to identify handwritten digits from the MNIST dataset.
 
 # Training Loss/Testing Results
+Training was performed using a training dataset. The vanilla data was augmented by performing reflections across the x and y axes, as well as adding varying degrees of gaussian noise to the vanilla data. The transformations served as an exercise in data augmentation.
+
+Testing was performed using a separate dataset to which similar transformations were performed. The results of testing on each transformed dataset is as follows:
 ```
 test set         accuracy
 ---------------  ----------
